@@ -1,0 +1,16 @@
+project_id = "astlewenqcqcvcuoafpb"
+
+[functions.buscar-musica]
+verify_jwt = false
+
+[functions.buscar-letra]
+verify_jwt = true
+
+[functions.buscar-letra-web]
+verify_jwt = true
+
+[functions.gerar-recomendacoes]
+verify_jwt = true
+
+[functions.gerar-playlist-inteligente]
+verify_jwt = true
